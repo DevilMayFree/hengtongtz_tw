@@ -170,7 +170,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
             <li><a href="/about-us.html" data-tap="axa-im" >關於恆通投資</a></li>
             <li><a href="/about-us.html" data-tap="cg" >關於富盛</a></li>
             <li><a href="/about-us.html" data-tap="awards" >得獎紀錄</a></li>
-            <li><a href="/investment-capabilities-responsible-investing.html" data-tap="awards" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/investment-capabilities-responsible-investing'">負責任投資</a></li>
+            <li><a href="/investment-capabilities-responsible-investing.html" data-tap="awards" >負責任投資</a></li>
         </ul>
         <ul id="fund-top-menu" class="d-none d-md-block inner-menu">
             <li>
@@ -248,7 +248,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     <li><a href="/about-us.html" class="p" data-tap="axa-im" >關於恆通投資</a></li>
                     <li><a href="/about-us.html" class="p" data-tap="cg" >關於富盛</a></li>
                     <li><a href="/about-us.html" class="p" data-tap="awards" >得獎紀錄</a></li>
-                    <li><a href="/investment-capabilities-responsible-investing.html" class="p" data-tap="awards" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/investment-capabilities-responsible-investing'">負責任投資</a></li>
+                    <li><a href="/investment-capabilities-responsible-investing.html" class="p" data-tap="awards" >負責任投資</a></li>
 
                 </div>
             </div>
@@ -362,8 +362,8 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     <hr>
                 </div>
                 <div class="col50">
-                    <li><a href="/news.html" class="p" data-tap="holiday-calendar" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/news?tap='+this.dataset.tap ">最新公告</a></li>
-                    <li><a href="/news.html" class="p" data-tap="disclosure-equirement" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/news?tap='+this.dataset.tap ">通路報酬揭露</a></li>
+                    <li><a href="/news.html" class="p" data-tap="holiday-calendar" >最新公告</a></li>
+                    <li><a href="/news.html" class="p" data-tap="disclosure-equirement" >通路報酬揭露</a></li>
                 </div>
             </div>
             <div class="hmenu-bottom">
