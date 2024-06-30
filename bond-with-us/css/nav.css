@@ -1,0 +1,320 @@
+@charset "UTF-8";
+footer,
+header {
+  /* 48 */
+  /* 36 */
+  /* 30 */
+  /* 28 */
+  /* 24 */
+  /* 22 */
+  /* 18 */
+  /* 16 */
+  /* 14 */
+  /* ----------RWD----------------------- */
+}
+footer h1,
+footer .h1,
+footer h2,
+footer .h2,
+footer h3,
+footer .h3,
+footer h4,
+footer .h4,
+footer h5,
+footer .h5,
+footer h6,
+footer .h6,
+footer a,
+footer p,
+footer b,
+footer small,
+header h1,
+header .h1,
+header h2,
+header .h2,
+header h3,
+header .h3,
+header h4,
+header .h4,
+header h5,
+header .h5,
+header h6,
+header .h6,
+header a,
+header p,
+header b,
+header small {
+  font: inherit;
+  color: inherit;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 1.2px;
+}
+footer h1,
+footer .h1,
+header h1,
+header .h1 {
+  font-size: 3rem !important;
+}
+footer h2,
+footer .h2,
+header h2,
+header .h2 {
+  font-size: 2.25rem !important;
+}
+footer h3,
+footer .h3,
+header h3,
+header .h3 {
+  font-size: 1.87rem !important;
+}
+footer h4,
+footer .h4,
+header h4,
+header .h4 {
+  font-size: 1.75rem !important;
+}
+footer h5,
+footer .h5,
+header h5,
+header .h5 {
+  font-size: 1.5rem !important;
+}
+footer h6,
+footer .h6,
+header h6,
+header .h6 {
+  font-size: 1.37rem !important;
+}
+footer .large,
+header .large {
+  font-size: 1.12rem !important;
+}
+footer p,
+footer .p,
+header p,
+header .p {
+  font-size: 1rem !important;
+}
+footer a,
+header a {
+  font-size: 1rem !important;
+  display: inline-block;
+  text-decoration: none;
+}
+footer small,
+footer .small,
+header small,
+header .small {
+  font-size: 0.88rem !important;
+}
+footer b,
+footer strong,
+header b,
+header strong {
+  font-weight: bolder;
+}
+footer em,
+footer i,
+header em,
+header i {
+  font-style: italic;
+}
+footer .class_title,
+header .class_title {
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+}
+footer .class_title::before, footer .class_title::after,
+header .class_title::before,
+header .class_title::after {
+  display: inline-block;
+  font-weight: 600;
+  position: absolute;
+  letter-spacing: 0;
+}
+footer .class_title::before,
+header .class_title::before {
+  content: "「";
+  top: 0;
+  left: -45px;
+}
+footer .class_title::after,
+header .class_title::after {
+  content: "」";
+  bottom: 0;
+  right: -45px;
+}
+@media screen and (max-width: 768px) {
+  footer .class_title::before,
+  header .class_title::before {
+    content: "「";
+    left: -35px;
+  }
+  footer .class_title::after,
+  header .class_title::after {
+    content: "」";
+    right: -35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer .class_title,
+  header .class_title {
+    margin-left: 10px;
+  }
+  footer .class_title::before,
+  header .class_title::before {
+    content: "「";
+    left: -30px;
+  }
+  footer .class_title::after,
+  header .class_title::after {
+    content: "」";
+    right: -30px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  footer h1,
+  footer .h1,
+  header h1,
+  header .h1 {
+    font-size: 2.8rem !important;
+  }
+  footer h2,
+  footer .h2,
+  header h2,
+  header .h2 {
+    font-size: 2rem !important;
+  }
+  footer h3,
+  footer .h3,
+  header h3,
+  header .h3 {
+    font-size: 1.8rem !important;
+  }
+  footer h4,
+  footer .h4,
+  header h4,
+  header .h4 {
+    font-size: 1.7rem !important;
+  }
+  footer h5,
+  footer .h5,
+  header h5,
+  header .h5 {
+    font-size: 1.3rem !important;
+  }
+  footer h6,
+  footer .h6,
+  header h6,
+  header .h6 {
+    font-size: 1.05rem !important;
+  }
+  footer .large,
+  header .large {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer h1,
+  footer .h1,
+  header h1,
+  header .h1 {
+    font-size: 2.4rem !important;
+  }
+  footer h2,
+  footer .h2,
+  header h2,
+  header .h2 {
+    font-size: 1.8rem !important;
+  }
+  footer h3,
+  footer .h3,
+  header h3,
+  header .h3 {
+    font-size: 1.7rem !important;
+  }
+  footer h4,
+  footer .h4,
+  header h4,
+  header .h4 {
+    font-size: 1.5rem !important;
+  }
+  footer h5,
+  footer .h5,
+  header h5,
+  header .h5 {
+    font-size: 1.1rem !important;
+  }
+  footer h6,
+  footer .h6,
+  header h6,
+  header .h6 {
+    font-size: 1rem !important;
+  }
+  footer .large,
+  header .large {
+    font-size: 0.9rem !important;
+  }
+  footer p,
+  footer .p,
+  header p,
+  header .p {
+    font-size: 0.88rem !important;
+  }
+  footer small,
+  footer .small,
+  header small,
+  header .small {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer h1,
+  footer .h1,
+  header h1,
+  header .h1 {
+    font-size: 2.2rem !important;
+  }
+  footer h2,
+  footer .h2,
+  header h2,
+  header .h2 {
+    font-size: 1.6rem !important;
+  }
+  footer h3,
+  footer .h3,
+  header h3,
+  header .h3 {
+    font-size: 1.5rem !important;
+  }
+  footer h4,
+  footer .h4,
+  header h4,
+  header .h4 {
+    font-size: 1.48rem !important;
+  }
+  footer h5,
+  footer .h5,
+  header h5,
+  header .h5 {
+    font-size: 1.1rem !important;
+  }
+  footer h6,
+  footer .h6,
+  header h6,
+  header .h6 {
+    font-size: 0.95rem !important;
+  }
+  footer .large,
+  header .large {
+    font-size: 0.86rem !important;
+  }
+  footer p,
+  footer .p,
+  header p,
+  header .p {
+    font-size: 0.85rem !important;
+  }
+}/*# sourceMappingURL=nav.css.map */

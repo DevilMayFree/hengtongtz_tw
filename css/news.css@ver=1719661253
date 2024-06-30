@@ -1,0 +1,253 @@
+#news .holiday_announcement, #news .return_reveal {
+  display: none;
+}
+
+#news .holiday_announcement.active, #news .return_reveal.active {
+  display: block;
+}
+
+.tap_bar > a.active, .tap_bar > a:hover {
+  background-color: #fff;
+}
+
+#news .holiday_announcement .holiday_announcement_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+#news .holiday_announcement .holiday_announcement_box .holiday_announcement_item {
+  padding: 30px 0;
+  width: 48%;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+#news .holiday_announcement .holiday_announcement_box .holiday_announcement_item:nth-child(2n+1)::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 18px #ccc;
+          box-shadow: 0px 4px 18px #ccc;
+  -webkit-transform: scale(1.2, 1.1) translateX(-5%);
+      -ms-transform: scale(1.2, 1.1) translateX(-5%);
+          transform: scale(1.2, 1.1) translateX(-5%);
+  z-index: 0;
+  opacity: 0;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+#news .holiday_announcement .holiday_announcement_box .holiday_announcement_item:nth-child(2n)::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 18px #ccc;
+          box-shadow: 0px 4px 18px #ccc;
+  -webkit-transform: scale(1.2, 1.1) translateX(5%);
+      -ms-transform: scale(1.2, 1.1) translateX(5%);
+          transform: scale(1.2, 1.1) translateX(5%);
+  z-index: 0;
+  opacity: 0;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+#news .holiday_announcement .holiday_announcement_box .holiday_announcement_item .holiday_date {
+  position: relative;
+  z-index: 1;
+}
+
+#news .holiday_announcement .holiday_announcement_box .holiday_announcement_item .holiday_title {
+  position: relative;
+  z-index: 1;
+}
+
+#news .holiday_announcement .holiday_announcement_box .holiday_announcement_item .holiday_tag {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 30px;
+  color: #fff;
+  background-color: #007bc4;
+  position: relative;
+  z-index: 1;
+}
+
+#news .holiday_announcement .holiday_announcement_box .holiday_announcement_item .holiday_more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DE6106;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  z-index: 1;
+}
+
+#news .holiday_announcement .holiday_announcement_box .holiday_announcement_item .holiday_more > p {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  #news .holiday_announcement .holiday_announcement_box .holiday_announcement_item:hover:nth-child(2n+1)::before {
+    opacity: 1;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+  }
+  #news .holiday_announcement .holiday_announcement_box .holiday_announcement_item:hover:nth-child(2n)::before {
+    opacity: 1;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+  }
+}
+
+#news .return_reveal .return_reveal_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+#news .return_reveal .return_reveal_box .return_reveal_item {
+  margin-bottom: 20px;
+  padding: 50px;
+  width: 49%;
+  background-color: #f2f2f2;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media screen and (min-width: 1024px) {
+  #news .return_reveal .return_reveal_box .return_reveal_item:hover {
+    background-color: #fff;
+    border: 1px solid #007bc4;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #news .return_reveal .return_reveal_box .return_reveal_item {
+    margin-bottom: 15px;
+    padding: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #news .holiday_announcement .holiday_announcement_box .holiday_announcement_item {
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+#news_post {
+  background-color: #f2f2f2;
+}
+
+#news_post .main_title > br {
+  display: none;
+}
+
+#news_post .news_post_box {
+  padding: 50px 80px;
+  background-color: #fff;
+}
+
+#news_post .news_post_box > h6 {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+#news_post .news_post_box .news_post_content {
+  padding: 30px 0;
+}
+
+#news_post .news_post_box > a {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1023px) {
+  #news_post .news_post_box {
+    padding: 30px 60px;
+  }
+  #news_post .news_post_box > h6 {
+    padding-bottom: 20px;
+  }
+  #news_post .news_post_box .news_post_content {
+    padding: 20px 0;
+  }
+  #news_post .news_post_box > a {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #news_post .main_title > br {
+    display: block;
+  }
+  #news_post .news_post_box {
+    padding: 20px 50px;
+  }
+  #news_post .news_post_box > h6 {
+    padding-bottom: 15px;
+  }
+  #news_post .news_post_box .news_post_content {
+    padding: 15px 0;
+  }
+  #news_post .news_post_box > a {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #news_post .news_post_box {
+    padding: 20px;
+  }
+  #news_post .news_post_box > a {
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=news.css.map */
