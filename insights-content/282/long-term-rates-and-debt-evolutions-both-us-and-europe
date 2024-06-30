@@ -152,9 +152,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     <h4 class="ls0">關於我們</h4>
                 </a>
             </li>
-            <li><a href="/about-us.html" data-tap="axa-im" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">關於恆通投資</a></li>
-            <li><a href="/about-us.html" data-tap="cg" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">關於富盛</a></li>
-            <li><a href="/about-us.html" data-tap="awards" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">得獎紀錄</a></li>
+            <li><a href="/about-us.html" data-tap="axa-im" >關於恆通投資</a></li>
+            <li><a href="/about-us.html" data-tap="cg" >關於富盛</a></li>
+            <li><a href="/about-us.html" data-tap="awards" >得獎紀錄</a></li>
             <li><a href="/investment-capabilities-responsible-investing.html" data-tap="awards" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/investment-capabilities-responsible-investing'">負責任投資</a></li>
         </ul>
         <ul id="fund-top-menu" class="d-none d-md-block inner-menu">
@@ -230,9 +230,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     <hr>
                 </div>
                 <div class="col50">
-                    <li><a href="/about-us.html" class="p" data-tap="axa-im" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">關於恆通投資</a></li>
-                    <li><a href="/about-us.html" class="p" data-tap="cg" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">關於富盛</a></li>
-                    <li><a href="/about-us.html" class="p" data-tap="awards" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">得獎紀錄</a></li>
+                    <li><a href="/about-us.html" class="p" data-tap="axa-im" >關於恆通投資</a></li>
+                    <li><a href="/about-us.html" class="p" data-tap="cg" >關於富盛</a></li>
+                    <li><a href="/about-us.html" class="p" data-tap="awards" >得獎紀錄</a></li>
                     <li><a href="/investment-capabilities-responsible-investing.html" class="p" data-tap="awards" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/investment-capabilities-responsible-investing'">負責任投資</a></li>
 
                 </div>
@@ -707,9 +707,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
             <div class="footer_links">
                 <div class="footer_item">
                     <p class="txt-bold large ls4">關於我們</p>
-                    <a href="/about-us.html" class="p ls2" data-tap="axa-im" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">關於恆通投資</a>
-                    <a href="/about-us.html" class="p ls2" data-tap="cg" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">關於富盛</a>
-                    <a href="/about-us.html" class="p ls2" data-tap="awards" onclick="event.preventDefault(); window.location.href='https://www.cgsice.com/axaim/about-us?tap='+this.dataset.tap">得獎紀錄</a>
+                    <a href="/about-us.html" class="p ls2" data-tap="axa-im" >關於恆通投資</a>
+                    <a href="/about-us.html" class="p ls2" data-tap="cg" >關於富盛</a>
+                    <a href="/about-us.html" class="p ls2" data-tap="awards" >得獎紀錄</a>
                     <a href="/investment-capabilities-responsible-investing.html" class="p ls2">負責任投資</a>
                 </div>
                 <!-- <div class="footer_item">
