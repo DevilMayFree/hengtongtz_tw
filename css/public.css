@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   overflow-x: hidden;
-  padding-top: 100px;
+  /*padding-top: 100px;*/
 }
 
 body.lock {
@@ -721,8 +721,8 @@ img {
 
 header {
   position: fixed;
-  width: 100%;
-  height: 100px;
+  /*width: 100%;
+  height: 100px;*/
   background-color: #fff;
   -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

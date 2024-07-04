@@ -1,4 +1,12 @@
 
+$(document).ready(function(){
+    var firstTextNode = document.querySelector('body').firstChild;
+    console.log(firstTextNode);
+    if(firstTextNode){
+        firstTextNode.remove();
+    }
+});
+
 //===========================//
 //        header-hover       //  // 1200px~
 //===========================//
