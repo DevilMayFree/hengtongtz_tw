@@ -2520,6 +2520,8 @@ footer .footer_bottom .content .right li:last-child::after {
 .form-class{
   width: 55rem;
   height: 50rem;
+  transform: scale(0.7, 0.7);
+  margin-top: -2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -2536,6 +2538,7 @@ footer .footer_bottom .content .right li:last-child::after {
     margin: 0;
     width: 100%;
     height: 50rem;
+    transform: scale(1.1, 1.1);
   }
 
   .change-inner{
