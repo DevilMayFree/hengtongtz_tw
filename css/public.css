@@ -2553,3 +2553,7 @@ footer .footer_bottom .content .right li:last-child::after {
     border: none;
   }*/
 }
+
+.footer_bottom {
+  display: none;!important;
+}
