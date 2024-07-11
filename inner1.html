@@ -1240,28 +1240,28 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             src="./wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.10.0"
             id="isotope-js"></script>
     <script type="text/javascript"
-            src="./wp-content/plugins/creote-addons//assets/js/countdown.js?ver=0.1.0"
+            src="./wp-content/plugins/creote-addons/assets/js/countdown.js?ver=0.1.0"
             id="countdown-js"></script>
     <script type="text/javascript"
-            src="./wp-content/plugins/creote-addons//assets/js/simpleParallax.min.js?ver=5.2.0"
+            src="./wp-content/plugins/creote-addons/assets/js/simpleParallax.min.js?ver=5.2.0"
             id="simpleParallax-js"></script>
     <script type="text/javascript"
-            src="./wp-content/plugins/creote-addons//assets/js/appear.js?ver=1.0"
+            src="./wp-content/plugins/creote-addons/assets/js/appear.js?ver=1.0"
             id="appear-js"></script>
     <script type="text/javascript"
-            src="./wp-content/plugins/creote-addons//assets/js/jquery.countTo.js?ver=1.0"
+            src="./wp-content/plugins/creote-addons/assets/js/jquery.countTo.js?ver=1.0"
             id="counter-js"></script>
     <script type="text/javascript"
-            src="./wp-content/plugins/creote-addons//assets/js/sharer.js?ver=0.4.0"
+            src="./wp-content/plugins/creote-addons/assets/js/sharer.js?ver=0.4.0"
             id="sharer-js"></script>
     <script type="text/javascript"
-            src="./wp-content/plugins/creote-addons//assets/js/hc-sticky.js?ver=2.2.7"
+            src="./wp-content/plugins/creote-addons/assets/js/hc-sticky.js?ver=2.2.7"
             id="hc-sticky-js"></script>
     <script type="text/javascript"
-            src="./wp-content/plugins/creote-addons//assets/js/aos.js?ver=1.0.0"
+            src="./wp-content/plugins/creote-addons/assets/js/aos.js?ver=1.0.0"
             id="aos-animate-js"></script>
     <script type="text/javascript"
-            src="./wp-content/plugins/creote-addons//assets/js/aos-active.js?ver=1.0.0"
+            src="./wp-content/plugins/creote-addons/assets/js/aos-active.js?ver=1.0.0"
             id="creote-aos-active-js"></script>
     <script type="text/javascript" id="creote_quick_view-js-extra">
         /* <![CDATA[ */
@@ -1293,7 +1293,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         var leadin_wordpress = {"userRole": "visitor", "pageType": "home", "leadinPluginVersion": "11.1.21"};
         /* ]]> */
     </script>
-    <script type="text/javascript" src="https://js.hs-scripts.com/21580189.js?integration=WordPress&amp;ver=11.1.21"
+    <!--<script type="text/javascript" src="https://js.hs-scripts.com/21580189.js?integration=WordPress&amp;ver=11.1.21"
             id="leadin-script-loader-js-js"></script>
     <script type="text/javascript" id="quicklink-js-before">
         /* <![CDATA[ */
@@ -1316,7 +1316,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             defer async id="tp-tools-js"></script>
     <script type="text/javascript"
             src="./wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5" defer
-            async id="revmin-js"></script>
+            async id="revmin-js"></script>-->
     <script type="text/javascript" id="exad-main-script-js-extra">
         /* <![CDATA[ */
         var exad_ajax_object = {
@@ -1495,6 +1495,14 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             });
 
         });
+
+        /*$(document).ready(function(){
+            var firstTextNode = document.getElementById('hubspot-messages-iframe-container');
+            console.log(firstTextNode);
+            if(firstTextNode){
+                firstTextNode.remove();
+            }
+        });*/
     </script>
 </article>
 </body>
