@@ -2521,7 +2521,7 @@ footer .footer_bottom .content .right li:last-child::after {
   width: 55rem;
   height: 50rem;
   transform: scale(0.7, 0.7);
-  margin-top: 4rem;
+  /*margin-top: 4rem;*/
 }
 
 @media screen and (max-width: 768px) {
