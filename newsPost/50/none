@@ -706,7 +706,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
         <div class=" w1200 content">
             <div class="left d-flex">
                 <p id="open_copyright" class="small ls1">【富盛證券投顧 獨立經營管理】</p>
-                <p id="open_copyright" class="small  ls1">© 版權所有 不得轉載 <span id="copyright-btn">+</span></p>
+                <p id="open_copyright" class="small  ls1">© 版權所有 不得轉載 <!--<span id="copyright-btn">+</span>--></p>
             </div>
             <div class="right">
                 <ul class="d-flex">
